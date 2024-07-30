@@ -1,0 +1,4 @@
+/* Apply a top margin of 10px to input fields, buttons, and labels */
+input, button, label {
+  margin-top: 10px; /* Adds space above the element, creating separation from preceding elements */
+}

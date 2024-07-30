@@ -1,0 +1,28 @@
+/* The modal container */
+.modal {
+  position: fixed; /* Position the modal relative to the viewport */
+  z-index: 1; /* Ensure the modal appears above other elements */
+  left: 0; /* Position the modal at the left edge */
+  top: 0; /* Position the modal at the top edge */
+  width: 100%; /* Full width of the viewport */
+  height: 100%; /* Full height of the viewport */
+  overflow: auto; /* Enable scrolling if the content is too large */
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+}
+
+/* The modal content box */
+.modal-content {
+  background-color: #fefefe; /* White background for the modal content */
+  margin: 10% auto; /* Center the modal content vertically and horizontally, with a margin of 10% from the top */
+  padding: 20px; /* Padding inside the modal content */
+  border: 1px solid #888; /* Light grey border around the modal content */
+  width: 80%; /* 80% of the viewport width */
+}
+
+/* The close button */
+.close {
+  color: #aaa; /* Light grey color for the close button */
+  float: right; /* Align the close button to the right */
+  font-size: 28px; /* Large font size for the close button */
+  font-weight: bold; /* Bold font weight for the close button */
+}
